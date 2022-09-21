@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 2rem 1rem;
+    color: #fffe;
+}
+
+.nav .logo{
+    font-weight: 600;
+    background : linear-gradient(to left, #743ad5, #d53a9d);
+    padding:0.8rem;
+    border-radius: 10px;
+}
+.nav ul {
+    display: flex;
+    color: #000;
+    gap: 2rem;
+}
+
+.nav ul li {
+    background: none;
+    text-decoration: inherit;
+    font-family: system-ui;
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+    list-style: none;
+}
+
+nav ul li {
+    transition: all .2s ease-in-out;
+}
+
+nav ul li:hover{
+    transform: scale(1.1);
+}
