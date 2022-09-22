@@ -85,7 +85,7 @@ input[type="number"] {
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 }
 
-button {
+.btn{
   background: none;
   text-decoration: inherit;
   font-family: system-ui;
